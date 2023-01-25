@@ -5,12 +5,10 @@
   color: white;
   margin-bottom: 50px;
   font-family: "Courier New", Courier, monospace;
-
-  animation: OutLineRainbowEffect 1s ease-in-out infinite;
-  text-shadow: 10cm;
-
   -webkit-text-stroke: #de3c78;
   -webkit-text-stroke-width: 3px;
+
+  animation: OutLineRainbowEffect 2s ease-in-out infinite;
 }
 
 @keyframes OutLineRainbowEffect {

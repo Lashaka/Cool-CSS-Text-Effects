@@ -1,3 +1,31 @@
+.StaticNeon {
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke: cyan;
+  -webkit-text-stroke-color: cyan;
+  -webkit-text-stroke-width: 6px;
+  animation: StaticNeonEffect 6s ease-in-out infinite;
+}
+
+@keyframes StaticNeonEffect {
+  0% {
+    color: blue;
+    -webkit-text-stroke-color: cyan;
+  }
+  50% {
+    color: purple;
+    -webkit-text-stroke-color: pink;
+  }
+  100% {
+    color: blue;
+    -webkit-text-stroke-color: cyan;
+  }
+}
+
 .NeonCube {
   font-size: 100px;
   text-transform: uppercase;
@@ -59,5 +87,62 @@
 
   100% {
     text-shadow: -10px -10px yellow;
+  }
+}
+
+.TokyoNeonLights {
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: black;
+  text-shadow: -10px -10px black;
+  margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+
+  animation: TokyoNeonEffect 1s step-end infinite;
+}
+
+@keyframes TokyoNeonEffect {
+  0% {
+    text-shadow: -20px -20px #3c1096;
+  }
+
+  10% {
+    text-shadow: -30px -10px #4c2bc4;
+  }
+
+  20% {
+    text-shadow: -40px 0px #51c7e3;
+  }
+
+  30% {
+    text-shadow: -30px 10px #be43a1;
+  }
+  40% {
+    text-shadow: -20px 20px #721a86;
+  }
+
+  50% {
+    text-shadow: 20px -20px #3c1096;
+  }
+
+  60% {
+    text-shadow: 30px -10px #4c2bc4;
+  }
+
+  70% {
+    text-shadow: 40px 0px #51c7e3;
+  }
+
+  80% {
+    text-shadow: 30px 10px #be43a1;
+  }
+
+  90% {
+    text-shadow: 20px 20px #721a86;
+  }
+
+  100% {
+    text-shadow: -20px -20px #3c1096;
   }
 }
