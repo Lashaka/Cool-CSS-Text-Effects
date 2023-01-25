@@ -4,18 +4,21 @@
     <link rel="stylesheet" href="Style.css" />
     <link rel="stylesheet" href="Neon.css" />
     <link rel="stylesheet" href="Rainbow.css" />
+    <link rel="stylesheet" href="3D.css" />
+    <link rel="stylesheet" href="WeirdEffects.css" />
   </head>
 
   <body>
     <h1 class="StaticNeon">Static Neon</h1>
     <p>
-      .NeonCube { font-size: 100px; text-transform: uppercase; letter-spacing:
-      20px; color: #7fc4fa; text-shadow: -10px -10px #ff8c00; margin-bottom:
-      50px; font-family: "Courier New", Courier, monospace; animation: neon 8s
-      ease-in-out infinite; } @keyframes neon { 0% { text-shadow: -10px -10px
-      #8c6af2; } 25% { text-shadow: 10px -10px #a757d0; } 50% { text-shadow:
-      10px 10px #ba4ba9; } 75% { text-shadow: -10px 10px #de3c78; } 100% {
-      text-shadow: -10px -10px #8c6af2; } }
+      .StaticNeon { font-size: 100px; text-transform: uppercase; letter-spacing:
+      20px; margin-bottom: 50px; font-family: "Courier New", Courier, monospace;
+      -webkit-text-stroke-width: 7px; -webkit-text-stroke: cyan;
+      -webkit-text-stroke-color: cyan; -webkit-text-stroke-width: 5px;
+      animation: StaticNeonEffect 6s ease-in-out infinite; } @keyframes
+      StaticNeonEffect { 0% { color: blue; -webkit-text-stroke-color: cyan; }
+      50% { color: purple; -webkit-text-stroke-color: pink; } 100% { color:
+      blue; -webkit-text-stroke-color: cyan; } }
     </p>
 
     <h1 class="NeonCube">Neon Cube</h1>
@@ -68,6 +71,26 @@
       } 72% { -webkit-text-stroke-color: indigo; } 86% {
       -webkit-text-stroke-color: violet; } 100% { -webkit-text-stroke-color:
       Red; } }
+    </p>
+
+    <h1 class="Text3D">3D Text</h1>
+    <p>
+      .Text3D { font-size: 100px; font-weight: 500; transform: translate(50%,
+      -50%); text-transform: uppercase; font-family: verdana; color: black;
+      text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px
+      #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+      1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px
+      1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16,
+      16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16,
+      16, 16, 0.4); position: relative; top: 50%; right: 50%; }
+    </p>
+
+    <h1 class="ScreenScreamer">ScreenScreamer (Hover over me)</h1>
+    <p>
+      .ScreenScreamer { font-size: 100px; font-weight: bold; text-align: center;
+      transform: perspective(10px) rotateX(0) rotateY(0); transition: transform
+      0.25s; } .ScreenScreamer:hover { transform: perspective(10px)
+      rotateX(-90deg) rotateY(180deg); }
     </p>
   </body>
 </html>
