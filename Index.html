@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Neon.css" />
+    <link rel="stylesheet" href="Rainbow.css" />
+  </head>
+
+  <body>
+    <h1 class="NeonCube">Neon Cube</h1>
+    <p>
+      .NeonCube { font-size: 100px; text-transform: uppercase; letter-spacing:
+      20px; color: #7fc4fa; text-shadow: -10px -10px #ff8c00; margin-bottom:
+      50px; font-family: "Courier New", Courier, monospace; animation: neon 8s
+      ease-in-out infinite; } @keyframes neon { 0% { text-shadow: -10px -10px
+      #8c6af2; } 25% { text-shadow: 10px -10px #a757d0; } 50% { text-shadow:
+      10px 10px #ba4ba9; } 75% { text-shadow: -10px 10px #de3c78; } 100% {
+      text-shadow: -10px -10px #8c6af2; } }
+    </p>
+
+    <h1 class="NeonTriangle">Neon Triangle</h1>
+    <p>
+      .NeonTriangle { font-size: 100px; text-transform: uppercase;
+      letter-spacing: 20px; color: black; text-shadow: -10px -10px black;
+      margin-bottom: 50px; font-family: "Courier New", Courier, monospace;
+      animation: neonForTriangle 1s ease-in-out infinite; } @keyframes
+      neonForTriangle { 0% { text-shadow: -10px -10px yellow; } 33% {
+      text-shadow: 10px -10px orange; } 66% { text-shadow: 0px 10px red; } 100%
+      { text-shadow: -10px -10px yellow; } }
+    </p>
+
+    <h1 class="OutlineRainbow">Outline Rainbow</h1>
+    <p>
+      .OutlineRainbow { font-size: 100px; text-transform: uppercase;
+      letter-spacing: 20px; color: white; margin-bottom: 50px; font-family:
+      "Courier New", Courier, monospace; animation: OutLineRainbowEffect 1s
+      ease-in-out infinite; text-shadow: 10cm; -webkit-text-stroke: #de3c78;
+      -webkit-text-stroke-width: 3px; } @keyframes OutLineRainbowEffect { 0% {
+      -webkit-text-stroke-color: Red; } 14% { -webkit-text-stroke-color: orange;
+      } 28% { -webkit-text-stroke-color: yellow; } 43% {
+      -webkit-text-stroke-color: green; } 57% { -webkit-text-stroke-color: blue;
+      } 72% { -webkit-text-stroke-color: indigo; } 86% {
+      -webkit-text-stroke-color: violet; } 100% { -webkit-text-stroke-color:
+      Red; } }
+    </p>
+  </body>
+</html>

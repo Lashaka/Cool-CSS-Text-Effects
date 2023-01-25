@@ -1,0 +1,41 @@
+.OutlineRainbow {
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: white;
+  margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+
+  animation: OutLineRainbowEffect 1s ease-in-out infinite;
+  text-shadow: 10cm;
+
+  -webkit-text-stroke: #de3c78;
+  -webkit-text-stroke-width: 3px;
+}
+
+@keyframes OutLineRainbowEffect {
+  0% {
+    -webkit-text-stroke-color: Red;
+  }
+  14% {
+    -webkit-text-stroke-color: orange;
+  }
+  28% {
+    -webkit-text-stroke-color: yellow;
+  }
+  43% {
+    -webkit-text-stroke-color: green;
+  }
+  57% {
+    -webkit-text-stroke-color: blue;
+  }
+  72% {
+    -webkit-text-stroke-color: indigo;
+  }
+  86% {
+    -webkit-text-stroke-color: violet;
+  }
+  100% {
+    -webkit-text-stroke-color: Red;
+  }
+}
