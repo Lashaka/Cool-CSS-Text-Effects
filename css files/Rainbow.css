@@ -1,10 +1,6 @@
 .OutlineRainbow {
-  font-size: 100px;
-  text-transform: uppercase;
-  letter-spacing: 20px;
-  color: white;
+  color: black;
   margin-bottom: 50px;
-  font-family: "Courier New", Courier, monospace;
   -webkit-text-stroke: #de3c78;
   -webkit-text-stroke-width: 3px;
 

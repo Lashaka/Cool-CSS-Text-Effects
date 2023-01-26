@@ -1,9 +1,7 @@
 .Text3D {
-  font-size: 100px;
   font-weight: 500;
-  text-transform: uppercase;
   font-family: verdana;
-  color: black;
+  color: yellow;
   text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
     1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
     1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,

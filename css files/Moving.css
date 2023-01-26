@@ -1,5 +1,6 @@
-.spinning-button {
+.spinning {
   animation: spin 8s linear infinite;
+  color: white;
 }
 
 @keyframes spin {
@@ -12,16 +13,16 @@
   }
 }
 
-/* USE THIS FADE IDEAAAAAAAAAA */
-* {
-  animation: entry-animation 2s linear;
+.spinning-vertically {
+  animation: spinvertically 8s linear infinite;
+  color: white;
 }
 
-@keyframes entry-animation {
+@keyframes spinvertically {
   from {
-    opacity: 0;
+    transform: rotateX(0deg);
   }
   to {
-    opacity: 1;
+    transform: rotateX(360deg);
   }
 }

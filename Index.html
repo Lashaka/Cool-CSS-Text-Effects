@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css files\Rainbow.css" />
     <link rel="stylesheet" href="css files\3D.css" />
     <link rel="stylesheet" href="css files\WeirdEffects.css" />
+    <link rel="stylesheet" href="css files\Moving.css" />
+    <link rel="stylesheet" href="css files\Fade.css" />
   </head>
 
   <body>
@@ -73,7 +75,14 @@
       Red; } }
     </p>
 
-    <h1 class="Text3D">3D Text</h1>
+    <h1 class="Pulsing">Pulsing</h1>
+    <p>
+      .FadingInAndOut { animation: entry-animation 2s linear; } @keyframes
+      entry-animation { 0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity:
+      0; } }
+    </p>
+
+    <h1 class="Text3D">3D</h1>
     <p>
       .Text3D { font-size: 100px; font-weight: 500; transform: translate(50%,
       -50%); text-transform: uppercase; font-family: verdana; color: black;
@@ -85,12 +94,26 @@
       16, 16, 0.4); position: relative; top: 50%; right: 50%; }
     </p>
 
-    <h1 class="ScreenScreamer">ScreenScreamer (Hover over me)</h1>
+    <h1 class="ScreenScreamer">Screen Screamer (Hover over me)</h1>
     <p>
       .ScreenScreamer { font-size: 100px; font-weight: bold; text-align: center;
       transform: perspective(10px) rotateX(0) rotateY(0); transition: transform
       0.25s; } .ScreenScreamer:hover { transform: perspective(10px)
       rotateX(-90deg) rotateY(180deg); }
+    </p>
+
+    <h1 class="spinning">Spinner</h1>
+    <p>
+      .spinning { animation: spin 8s linear infinite; color: white; } @keyframes
+      spin { from { transform: rotate(0deg); } to { transform: rotate(360deg);
+      /* -360deg to spin left */ } }
+    </p>
+
+    <h1 class="spinning-vertically">vertical Spinner</h1>
+    <p>
+      .spinning-vertically { animation: spinvertically 8s linear infinite;
+      color: white; } @keyframes spinvertically { from { transform:
+      rotateX(0deg); } to { transform: rotateX(360deg); } }
     </p>
   </body>
 </html>

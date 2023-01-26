@@ -1,9 +1,5 @@
 .StaticNeon {
-  font-size: 100px;
-  text-transform: uppercase;
-  letter-spacing: 20px;
   margin-bottom: 50px;
-  font-family: "Courier New", Courier, monospace;
   -webkit-text-stroke-width: 7px;
   -webkit-text-stroke: cyan;
   -webkit-text-stroke-color: cyan;
@@ -27,13 +23,9 @@
 }
 
 .NeonCube {
-  font-size: 100px;
-  text-transform: uppercase;
-  letter-spacing: 20px;
   color: #7fc4fa;
   text-shadow: -10px -10px #ff8c00;
   margin-bottom: 50px;
-  font-family: "Courier New", Courier, monospace;
 
   animation: neonforCube 8s ease-in-out infinite;
 }
@@ -61,13 +53,9 @@
 }
 
 .NeonTriangle {
-  font-size: 100px;
-  text-transform: uppercase;
-  letter-spacing: 20px;
-  color: black;
+  color: white;
   text-shadow: -10px -10px black;
   margin-bottom: 50px;
-  font-family: "Courier New", Courier, monospace;
 
   animation: neonForTriangle 1s step-end infinite;
 }
@@ -91,13 +79,10 @@
 }
 
 .TokyoNeonLights {
-  font-size: 100px;
-  text-transform: uppercase;
-  letter-spacing: 20px;
   color: black;
   text-shadow: -10px -10px black;
   margin-bottom: 50px;
-  font-family: "Courier New", Courier, monospace;
+  color: rgba(0, 0, 0, 0);
 
   animation: TokyoNeonEffect 1s step-end infinite;
 }
