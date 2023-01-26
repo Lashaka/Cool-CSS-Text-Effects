@@ -1,0 +1,27 @@
+.spinning-button {
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    /* -360deg to spin left */
+  }
+}
+
+/* USE THIS FADE IDEAAAAAAAAAA */
+* {
+  animation: entry-animation 2s linear;
+}
+
+@keyframes entry-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
