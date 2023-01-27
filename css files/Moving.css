@@ -1,9 +1,9 @@
-.spinning {
-  animation: spin 8s linear infinite;
+.Spinning {
+  animation: Spin 8s linear infinite;
   color: white;
 }
 
-@keyframes spin {
+@keyframes Spin {
   from {
     transform: rotate(0deg);
   }
@@ -13,12 +13,12 @@
   }
 }
 
-.spinning-vertically {
-  animation: spinvertically 8s linear infinite;
+.SpinningVertically {
+  animation: SpinVertically 8s linear infinite;
   color: white;
 }
 
-@keyframes spinvertically {
+@keyframes SpinVertically {
   from {
     transform: rotateX(0deg);
   }

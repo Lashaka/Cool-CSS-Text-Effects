@@ -1,9 +1,9 @@
 .StaticNeon {
-  margin-bottom: 50px;
   -webkit-text-stroke-width: 7px;
   -webkit-text-stroke: cyan;
   -webkit-text-stroke-color: cyan;
   -webkit-text-stroke-width: 5px;
+  
   animation: StaticNeonEffect 6s ease-in-out infinite;
 }
 
@@ -25,7 +25,6 @@
 .NeonCube {
   color: #7fc4fa;
   text-shadow: -10px -10px #ff8c00;
-  margin-bottom: 50px;
 
   animation: neonforCube 8s ease-in-out infinite;
 }
@@ -55,7 +54,6 @@
 .NeonTriangle {
   color: white;
   text-shadow: -10px -10px black;
-  margin-bottom: 50px;
 
   animation: neonForTriangle 1s step-end infinite;
 }
@@ -81,7 +79,6 @@
 .TokyoNeonLights {
   color: black;
   text-shadow: -10px -10px black;
-  margin-bottom: 50px;
   color: rgba(0, 0, 0, 0);
 
   animation: TokyoNeonEffect 1s step-end infinite;

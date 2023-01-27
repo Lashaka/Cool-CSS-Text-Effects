@@ -8,6 +8,7 @@ h1 {
   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
   letter-spacing: 20px;
+  margin: 0px;
 }
 p {
   color: white;
@@ -16,4 +17,27 @@ p {
 
 body {
   background-color: black;
+}
+
+.copy-button {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 200px;
+}
+
+.copy-button:hover {
+  width: 450px;
+  height: 75px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.copy-button:active {
+  transform: scale(0.95); /* Add this for click effect */
 }
