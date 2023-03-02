@@ -128,3 +128,29 @@
     text-shadow: -20px -20px #3c1096;
   }
 }
+
+.FlashNeon {
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke: red;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 5px;
+  
+  animation: FlashNeonEffect 0.1s ease-in-out infinite;
+}
+
+@keyframes FlashNeonEffect {
+  0% {
+    color: white;
+    -webkit-text-stroke-color: red;
+  }
+
+  50% {
+    color: red;
+    -webkit-text-stroke-color: white;
+  }
+
+  100% {
+    color: white;
+    -webkit-text-stroke-color: red;
+  }
+}
